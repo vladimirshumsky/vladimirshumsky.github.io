@@ -5,32 +5,32 @@
   justify-content: center;
   flex-wrap: nowrap;
   width: 500px;
-  margin: 138px auto 0;
+  margin: 38px auto 0;
   &_confirm {
-    padding-top: 263px;
+    padding-top: 163px;
     width: 689px;
     margin: 0 auto;
     text-align: center;
   }
   &_notMail {
-    padding-top: 231px;
+    padding-top: 131px;
     width: 675px;
     margin: 0 auto;
     text-align: center;
   }
   &_forgotPassword {
-    margin-top: 175px;
+    margin-top: 75px;
     width: 420px;
   }
   &_sendPassword {
-    margin-top: 175px;
+    margin-top: 75px;
     width: 100%;
   }
 
   @media (max-width: 500px) {
     width: 100%;
     padding: 0 16px;
-    margin: 100px auto 0;
+    margin: 40px auto 0;
     &_confirm {
       width: 100%;
       padding: 0 16px;
