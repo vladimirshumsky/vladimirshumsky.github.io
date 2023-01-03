@@ -29,7 +29,6 @@ dd {
 }
 
 body {
-  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -58,9 +57,7 @@ textarea,
 select {
   font: inherit;
 }
-.App{
-  min-width: 100vw;
-}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
