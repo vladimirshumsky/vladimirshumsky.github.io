@@ -31,15 +31,17 @@ const Login = () => {
       setError(true);
     }
   };
-  const focusMobile = () => {
+
+  const focus = () => {
     if (
       /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
     ) {
       setDeleteImg(true);
+      setError(false);
+    } else {
+      setError(false);
     }
-  };
-  const focus = () => {
-    setError(false);
+
   };
   return (
     <Container styleType={"forgotPassword"}>
@@ -57,7 +59,7 @@ const Login = () => {
         <Input
           value={valueMail}
           setValueMail={setValueMail}
-          focus={focusMobile && focus}
+          focus={focus}
           loading={isLoading}
           styleType={"forgotPassword"}
           placeholder={"Email"}
