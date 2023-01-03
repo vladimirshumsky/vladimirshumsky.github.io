@@ -1,0 +1,12 @@
+.root {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #999999;
+  padding: 12px 0px;
+}
+@media (max-width: 500px) {
+  .root {
+    padding: 10px 0px;
+  }
+}

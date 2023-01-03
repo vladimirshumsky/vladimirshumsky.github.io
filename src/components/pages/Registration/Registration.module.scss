@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 138px;
+
+  > h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+  }
+
+  > h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+  .login_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 500px;
+    ::placeholder {
+      padding-left: 20px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #e6e6e6;
+    }
+  }
+  .orText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    padding: 12px 0px;
+  }
+  .account_btnWrapper {
+    width: 500px;
+    height: 64px;
+    font-size: 16px;
+    margin-top: 32px;
+  }
+}
+.promo {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e74f5;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+.forgot {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 137px;
+  > a {
+    color: #4e74f5;
+  }
+}
+
+.message {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  &_error {
+    color: #fb2424;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 100px 16px 0px 16px;
+    text-align: center;
+    > h1 {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 54px;
+    }
+    > h3 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      padding: 8px 0px 24px 0px;
+    }
+    .orText {
+      padding: 10px 0px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 30px;
+      color: #999999;
+    }
+    .login_wrapper {
+      width: 343px;
+    }
+    .account_btnWrapper {
+      width: 343px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px;
+    }
+    .forgot {
+      margin-bottom: 110px;
+    }
+    .promo {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.spinner {
+  position: absolute;
+  left: 125px;
+}
+@media (max-width: 500px) {
+  .spinner {
+    position: absolute;
+    left: 93px;
+  }
+}

@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 54px;
+  width: 100%;
+  height: 99px;
+  background-color: #ffffff;
+  top: 0;
+  .logo {
+    width: 142.95px;
+    height: 20px;
+  }
+  .flexWrap {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .notAccount {
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    cursor: pointer;
+  }
+}
+.btnWrapper {
+  width: 170px;
+  height: 51px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+}
+.exit {
+  display: flex;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    height: 60px;
+    padding: 10px 16px;
+    .logo {
+      width: 115px;
+      height: 16px;
+    }
+    .btnWrapper {
+      width: 113px;
+      height: 40px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 13px;
+    }
+    .notAccount {
+      display: none;
+    }
+  }
+}

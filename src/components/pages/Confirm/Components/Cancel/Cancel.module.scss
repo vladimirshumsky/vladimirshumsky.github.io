@@ -1,0 +1,21 @@
+.root {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 184px;
+  color: #4e74f5;
+}
+@media (max-width: 500px) {
+  .root {
+    width: 250px;
+    height: 48px;
+    padding-top: 24px;
+    padding-bottom: 163px;
+    justify-content: center;
+  }
+}

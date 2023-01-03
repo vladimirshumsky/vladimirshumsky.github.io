@@ -1,0 +1,17 @@
+.cancel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 137px;
+  color: #999999;
+}
+@media (max-width: 500px) {
+  .cancel {
+    width: 250px;
+    height: 48px;
+    padding-bottom: 27px;
+    text-align: center;
+  }
+}

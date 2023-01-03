@@ -1,0 +1,20 @@
+.root {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 137px;
+  a {
+    color: #4e74f5;
+  }
+}
+@media (max-width: 500px) {
+  .root {
+    width: 250px;
+    height: 48px;
+    padding-bottom: 27px;
+    text-align: center;
+  }
+}

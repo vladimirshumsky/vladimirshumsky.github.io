@@ -1,0 +1,48 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4e74f5;
+  border-radius: 100px;
+  border: solid #4e74f5;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13px;
+  color: #ffffff;
+  &_success {
+    background-color: #2bc22b;
+    border: #2bc22b;
+  }
+  &_loader {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.error {
+  pointer-events: none;
+  background-color: #8f8f8f;
+}
+@media (max-width: 500px) {
+  .btn {
+    &_loader {
+      width: 343px;
+      height: 56px;
+    }
+  }
+}
+.text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  > div {
+    position: absolute;
+    left: -45px;
+  }
+}
