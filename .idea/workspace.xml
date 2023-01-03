@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83d0a726-571a-47e7-bc50-6f4f9d112b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/static/css/main.fb95d65b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/static/css/main.fb95d65b.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.9e61376f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/main.9e61376f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/common/Container/Container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/common/Container/Container.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/common/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/common/Header/Header.module.scss" afterDir="false" />
-    </list>
+    <list default="true" id="83d0a726-571a-47e7-bc50-6f4f9d112b28" name="Changes" comment="create pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
