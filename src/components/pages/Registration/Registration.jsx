@@ -1,6 +1,5 @@
 import React from "react";
 import SocialButtons from "@/components/pages/common/SocialButtons/SocialButtons";
-import { reset } from "@/redux/store/registration-page/registration-page.slice";
 import Container from "@/components/pages/common/Container/Container";
 import SeparatorText from "@/components/pages/common/SeparatorText/SeparatorText";
 import Title from "@/components/pages/common/Title/Title";
